@@ -1,6 +1,7 @@
 import sys
 import os
 import traceback
+import resources_rc  # 注意不要遗漏这行！
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QPushButton, QVBoxLayout, QFileDialog,
     QLabel, QMenu, QAction, QMessageBox, QLineEdit, QListWidget, QListWidgetItem
@@ -235,8 +236,7 @@ if __name__ == '__main__':
     ex = App()
 
     # 设置图标（容错处理）
-    if os.path.exists("favicon.ico"):
-        ex.setWindowIcon(QIcon("favicon.ico"))
+    ex.setWindowIcon(QIcon(":/icons/favicon.ico"))
 
     # 窗口居中
     screen_rect = app.desktop().screenGeometry()
