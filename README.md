@@ -11,11 +11,13 @@
 
 不同点：
  - 软连接几乎不占用空间（快捷方式有几十KB）
- - 最核心的区别软连接可以令程序读取解释，来对目标文件进行操作。比如把文件创建一个软连接放到OneDrive里，OneDrive就可以读取该软连接直接同步目标文件。
+ - 最核心的区别软连接可以令程序读取解释，来对目标文件进行操作。
+比如把文件创建一个软连接放到OneDrive里，OneDrive就可以读取该软连接直接同步目标文件。
 
 ## 你可以尝试自己修改代码
-可以使用 > pyinstaller 进行打包
-** 没有 > pyinstaller ：**
+可以使用 >> pyinstaller 进行打包
+
+** 没有 >> pyinstaller ：**
 `python pip install pyinstaller
 
 ** 然后 执行控制台命令 **
