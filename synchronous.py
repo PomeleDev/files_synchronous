@@ -53,7 +53,7 @@ class CustomListWidget(QListWidget):
 class App(QWidget):
     def __init__(self):
         super().__init__()
-        self.title = '文件同步工具 v0.1'
+        self.title = '文件同步工具 v0.3'
         self.main_folder = None
         self.initUI()
 
@@ -248,7 +248,7 @@ if __name__ == '__main__':
     # 欢迎提示
     # 启动时弹出提示框
     QMessageBox.information(ex, "使用说明", """\
-    欢迎使用 文件同步工具 v0.1
+    欢迎使用 文件同步工具 v0.3
 
     本工具已开源在Github，工具完全免费。
     请勿上当受骗购买任何形式的“授权”或“高级版”。

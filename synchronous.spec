@@ -27,7 +27,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='文件同步工具v0.2.exe',
+    name='文件同步工具v0.3.exe',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
