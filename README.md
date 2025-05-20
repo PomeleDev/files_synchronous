@@ -18,10 +18,14 @@
 可以使用 <mark>`pyinstaller`</mark> 进行打包
 
 #### __没有 <mark>`pyinstaller`</mark> ：__
-```python pip install pyinstaller```
+```python
+pip install pyinstaller
+```
 
 #### __然后 执行控制台命令__
-```python pyinstaller synchronous.spec```
+```python
+pyinstaller synchronous.spec
+```
 
 ## 联系作者
 *QQ: 1586029*
