@@ -1,11 +1,15 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+block_cipher = None
 
 a = Analysis(
     ['synchronous.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[
+        ('favicon.ico', '.'),                  # 图标文件打包进根目录
+        ('resources_rc.py', '.')               # 资源模块打包进根目录
+    ],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -14,7 +18,8 @@ a = Analysis(
     noarchive=False,
     optimize=0,
 )
-pyz = PYZ(a.pure)
+
+pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 
 exe = EXE(
     pyz,
@@ -33,8 +38,8 @@ exe = EXE(
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
-    icon='favicon.ico',
+    icon='favicon.ico',                       # 设置任务栏和可执行文件图标
     codesign_identity=None,
     entitlements_file=None,
-	uac_admin=True,
+    uac_admin=True,
 )
