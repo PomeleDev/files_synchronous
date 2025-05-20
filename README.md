@@ -1,4 +1,4 @@
-# flies_synchronous
+# files_synchronous
 文件夹创建符号链接的程序
 
 ## 你问我什么是创建符号链接？
