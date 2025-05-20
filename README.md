@@ -15,14 +15,14 @@
 比如把文件创建一个软连接放到OneDrive里，OneDrive就可以读取该软连接直接同步目标文件。
 
 ## 你可以尝试自己修改代码
-可以使用 <mark>`pyinstaller`</mark> 进行打包
+可以使用 `pyinstaller`</mark> 进行打包
 
-#### __没有 <mark>`pyinstaller`</mark> ：__
+### __没有 `pyinstaller` ：__
 ```python
 pip install pyinstaller
 ```
 
-#### __然后 执行控制台命令__
+### __然后 执行控制台命令__
 ```python
 pyinstaller synchronous.spec
 ```
