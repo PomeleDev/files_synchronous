@@ -17,11 +17,11 @@
 ## 你可以尝试自己修改代码
 可以使用 <mark>`pyinstaller`</mark> 进行打包
 
-__没有 <mark>`pyinstaller`</mark> ：__
-```python pip install pyinstaller
+### __没有 <mark>`pyinstaller`</mark> ：__
+```python pip install pyinstaller```
 
-** 然后 执行控制台命令 **
-`python pyinstaller synchronous.spec
+### __ 然后 执行控制台命令 __
+```python pyinstaller synchronous.spec```
 
 ## 联系作者
 *QQ: 1586029*
