@@ -15,7 +15,7 @@
 比如把文件创建一个软连接放到OneDrive里，OneDrive就可以读取该软连接直接同步目标文件。
 
 ## 你可以尝试自己修改代码
-可以使用 <mark>`pyinstaller`</mark> 进行打包
+可以使用 <mark style:"color=red">`pyinstaller`</mark> 进行打包
 
 ** 没有 >> pyinstaller ：**
 `python pip install pyinstaller
